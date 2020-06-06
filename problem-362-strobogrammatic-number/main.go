@@ -31,7 +31,7 @@ func strobogrammatic(numCount int) []string {
 					continue
 				}
 				f(y)
-				return
+				continue
 			}
 			if len(str) == numCount-2 && x == 0 {
 				continue
